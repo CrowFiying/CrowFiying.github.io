@@ -306,7 +306,7 @@ h2{
 
 .footer .middle a{
     display: inline-block;
-    
+    margin-right:200px;
     width: 120px;
     height: 36px;
     
@@ -319,7 +319,7 @@ h2{
 
 
 .footer .right{
-    float: right;
+    float: left;
     margin-right: 260px;
 }
 
