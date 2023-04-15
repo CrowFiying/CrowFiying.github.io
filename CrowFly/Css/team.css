@@ -1,0 +1,59 @@
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+
+.content{
+    background-color:darkgreen;
+}
+
+.content li{
+    float: left;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    background-color:aquamarine;
+}
+
+.content li:nth-child(4n){
+    margin-right: 25px ;
+}
+
+.content li h3{
+    padding: 20px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+    background-color:burlywood;
+}
+
+.content li span{
+    padding: 0 20px;
+    font-size: 12px;
+    color: #999;
+    background-color:darkblue;
+}
+
+.father{
+    background-color:lightblue;
+    width: 748px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.son{
+    width: 150px;
+    height: 215px;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 70px;
+}
+.last{
+    margin-right: 0;
+}
